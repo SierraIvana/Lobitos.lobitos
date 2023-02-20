@@ -1,0 +1,80 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* BARRA DE NAVEGACIÓN */
+body header div {
+    background-color: rgb(235, 206, 232);
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    height: 5rem;    
+    }
+
+li {
+    margin: 1rem;
+    display:inline;
+    float: right;
+    list-style: none;
+    }
+
+a {
+    text-decoration: none;
+    color: rgb(177, 10, 155);
+    }
+
+/* LOGO */
+.logo img {
+    height: 5rem;  
+}
+
+/* MAIN */
+main div section{
+    height:89vh;
+    background-image:url(../img/imagenprincipal2.png);
+    background-position: left;
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 2rem;
+    /* float: right;
+    margin-top: 12rem; 
+    margin-right: 2rem; */
+}
+
+
+
+/* fOOTER */
+footer {
+    background-color: rgb(235, 206, 232);
+    height: 4rem;
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+.instagram{
+    height: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+
+
