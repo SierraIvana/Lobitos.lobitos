@@ -59,6 +59,7 @@ a:hover {
     margin-right: 2rem;
 }
 
+/* VISTA DESKTOP INDEX */
 @media screen and (min-width: 1106px) {
     .principal{
     background-image:url(../img/imagenprincipal2.png);
@@ -72,20 +73,6 @@ a:hover {
 }
 
 
-
-/* fOOTER */
-footer {
-    background-color: rgb(235, 206, 232);
-    height: 4rem;
-    font-size: 0.8rem;
-    text-align: right;
-}
-
-.instagram{
-    height: 2rem;
-    margin-right: 2rem;
-    margin-top: 1rem;
-}
 
 /* SERVICIOS */
 
@@ -128,10 +115,12 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* justify-content: center;
-    align-items: center; */
 
 }
+
+
+/* VISTA DESKTOP SERVICIOS */
+
 
 @media screen and (min-width: 1106px) {
     .formatoSeccion{
@@ -156,9 +145,20 @@ footer{
 @media screen and (min-width: 1106px) {
     .imagen_servicio{
         height:  30rem;
-        width: auto;
-
-
-    
+        width: auto;    
 }
+}
+
+/* fOOTER */
+footer {
+    background-color: rgb(235, 206, 232);
+    height: 4rem;
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+.instagram{
+    height: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
 }
